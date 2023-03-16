@@ -1,0 +1,34 @@
+li>a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.logo_img {
+  height: 150px;
+}
+
+.nav_items {
+  text-align: center;
+}
+
+.nav_items>li {
+  display: inline-block;
+}
+
+.nav_items>li>a {
+  line-height: 60px;
+  padding: 30px;
+  color: #00235B;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav_items>li>a:hover {
+  color: red;
+}
